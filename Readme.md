@@ -46,10 +46,7 @@ The finalized model achieved a **Mean Absolute Error (MAE)** of approximately **
 ![Confusion Matrix](visualizations/confusion_matrix.png)
 *Figure 2: Confusion Matrix showing high success rate across Budget, Mid, and Luxury tiers.*
 
-## What to Submit
-• Dataset used (`used_cars.csv`).
-• Python code for preprocessing (`preprocess.py`), visualization (`visualize.py`), and model building (`train_model.py`).
-• Screenshots of graphs:
+## Screenshots of graphs:
   - ![Price Distribution](visualizations/price_dist.png)
   - ![Correlation Heatmap](visualizations/correlation_heatmap.png)
   - ![Brand Analysis](visualizations/brand_analysis.png)
