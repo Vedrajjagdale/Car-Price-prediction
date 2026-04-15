@@ -52,11 +52,5 @@ The finalized model achieved a **Mean Absolute Error (MAE)** of approximately **
   - ![Brand Analysis](visualizations/brand_analysis.png)
 • Final report/explanation explaining the project and results.
 
-## Tips for Students
-• Focus on understanding each step rather than memorizing code.
-• Visualize data to find outliers before building the model.
-• Keep your data cleaning logic robust for handling real-world text data.
-• Explain your results clearly in simple language.
-
 ## Conclusion
 This project demonstrates how data science techniques can be used to extract insights and make predictions in the used car market. It provides a complete understanding of the data science workflow from raw data to a functional model.
