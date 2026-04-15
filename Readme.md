@@ -9,7 +9,7 @@ To understand data analysis, visualization, and machine learning by applying the
 ## Learning Outcomes & Skills
 • Data Cleaning and Preprocessing using NumPy and Pandas
 • Data Visualization using Seaborn and Matplotlib
-• Feature Engineering (Age derivation and unit conversion)
+• Feature Engineering 
 • Building Machine Learning Models (Random Forest Regression)
 • Model Evaluation using Mean Absolute Error and R² Score
 
@@ -41,20 +41,13 @@ The model achieved a Mean Absolute Error of around $21,000. It successfully iden
 ![Confusion Matrix](visualizations/confusion_matrix.png)
 *Figure 2: Confusion Matrix for Price Tiers (Budget, Mid, Luxury).*
 
-## What to Submit
-• Dataset used (`used_cars.csv`).
-• Python code for preprocessing (`preprocess.py`), visualization (`visualize.py`), and model building (`train_model.py`).
-• Screenshots of graphs:
+## Screenshots of graphs:
   - ![Price Distribution](visualizations/price_dist.png)
   - ![Correlation Heatmap](visualizations/correlation_heatmap.png)
   - ![Brand Analysis](visualizations/brand_analysis.png)
-• Final report/explanation explaining the project and results.
-
-## Tips for Students
-• Focus on understanding each step rather than memorizing code.
-• Visualize data to find outliers before building the model.
-• Keep your data cleaning logic robust for handling real-world text data.
-• Explain your results clearly in simple language.
+    
+## Results & Detailed Analysis
+The model achieved a **Mean Absolute Error (MAE)** of approximately **$21,800**, and an **R² Score** of **0.11**. 
 
 ## Conclusion
 This project demonstrates how data science techniques can be used to extract insights and make predictions in the used car market. It provides a complete understanding of the data science workflow from raw data to a functional model.
