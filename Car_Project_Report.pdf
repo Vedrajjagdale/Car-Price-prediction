@@ -1,0 +1,50 @@
+# Used Car Price Prediction Project Report
+
+## Project Description
+This project focuses on analyzing a dataset of used cars and building a machine learning model to predict their selling prices. It follows the complete data science pipeline: data collection, cleaning, visualization, feature engineering, and predictive modeling.
+
+## Objective
+To understand data analysis and machine learning by applying them to real-world used car data, identifying key factors that influence vehicle value.
+
+## Learning Outcomes & Skills
+- **Data Cleaning**: Handling currency strings, distance units, and missing values using Pandas.
+- **Data Visualization**: Creating insightful plots with Seaborn and Matplotlib.
+- **Feature Engineering**: Creating new features like `car_age` and encoding categorical data.
+- **Model Building**: Using Random Forest Regression for price prediction.
+- **Evaluation**: Measuring model performance using Mean Absolute Error (MAE) and R² Score.
+
+## Steps Followed
+1. **Data Collection**: Loaded the `used_cars.csv` dataset.
+2. **Data Cleaning**: 
+   - Parsed `price` (removing '$' and ',').
+   - Parsed `milage` (removing ' mi.' and ',').
+   - Handled missing values in `accident` and `clean_title`.
+3. **Data Visualization**: Generated distributions, scatter plots, heatmaps, and brand comparisons.
+4. **Feature Engineering**: Derived `car_age` from `model_year`.
+5. **Model Building**: Implemented a Random Forest Regressor.
+6. **Evaluation**: Analyzed the error margins and correlation between features and price.
+
+## Features Used
+- **model_year / car_age**: The age of the vehicle.
+- **milage**: Total distance traveled.
+- **brand**: The manufacturer of the car.
+- **fuel_type**: Gasoline, Hybrid, etc.
+- **accident**: History of reported accidents.
+
+## Machine Learning Model
+A **Random Forest Regressor** was used to predict the car prices. Unlike the Logistic Regression used for binary classification (like Titanic survival), this model handles the continuous numerical values of car prices.
+
+## Results
+- **Mean Absolute Error (MAE)**: ~$21,876 (Average error in price prediction).
+- **R² Score**: ~0.11 (Indicates that further features like 'engine' or 'model' complexity might be needed for higher precision).
+- **Key Insight**: Younger cars with lower mileage generally command higher prices, but brand equity plays a significant role in price variance.
+
+## Visualizations
+You can find the following graphs in the `/visualizations` folder:
+- **Price Distribution**: Shows most cars are in the $10k–$40k range.
+- **Price vs Milage**: Clear downward trend as mileage increases.
+- **Brand Analysis**: Highlighting average prices of top manufacturers.
+- **Correlation Heatmap**: Visualizing relationships between age, mileage, and price.
+
+## Conclusion
+This project demonstrates how data science workflows can be applied to complex market data. While the baseline model provides a starting point, the process highlights the importance of thorough data cleaning and the need for high-quality features in predicting market values.
