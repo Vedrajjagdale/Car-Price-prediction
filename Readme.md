@@ -50,7 +50,7 @@ The finalized model achieved a **Mean Absolute Error (MAE)** of approximately **
   - ![Price Distribution](visualizations/price_dist.png)
   - ![Correlation Heatmap](visualizations/correlation_heatmap.png)
   - ![Brand Analysis](visualizations/brand_analysis.png)
-• Final report/explanation explaining the project and results.
+
 
 ## Conclusion
 This project demonstrates how data science techniques can be used to extract insights and make predictions in the used car market. It provides a complete understanding of the data science workflow from raw data to a functional model.
