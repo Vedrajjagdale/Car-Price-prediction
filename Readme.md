@@ -1,4 +1,4 @@
-# Data Science Project: Used Car Price Prediction
+# Machine Learning Project: Used Car Price Prediction
 
 ## Project Description
 This project focuses on analyzing a dataset of used cars and building a machine learning model to predict their selling prices. It covers the complete data science pipeline from data preprocessing to visualization and prediction.
@@ -51,6 +51,3 @@ The finalized model achieved a **Mean Absolute Error (MAE)** of approximately **
   - ![Correlation Heatmap](visualizations/correlation_heatmap.png)
   - ![Brand Analysis](visualizations/brand_analysis.png)
 
-
-## Conclusion
-This project demonstrates how data science techniques can be used to extract insights and make predictions in the used car market. It provides a complete understanding of the data science workflow from raw data to a functional model.
